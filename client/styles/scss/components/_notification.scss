@@ -1,0 +1,24 @@
+.notification {
+  svg {
+    width: 14px;
+   height: 14px;
+    path {
+      fill: #06ed00;
+    }
+  }
+  &::after {
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #626262;
+    background-color: #06ed00;
+    font: bold 10px 'Roboto', sans-serif;
+    text-align: center;
+    color: #383838;
+    content: '2';
+    @include border-radius(50%);
+  }
+}

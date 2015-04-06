@@ -1,0 +1,24 @@
+.icon {
+  svg {
+    width: 14px;
+    height: 14px;
+    &:hover, &:focus{
+      fill: #ffffff;
+    }
+    polygon {
+      fill: #4ccde8;
+      &:hover, &:focus {
+        fill: #ffffff;
+      }
+    }
+    .glass {
+      fill: none;
+    }
+    path {
+      fill: #4ccde8;
+      &:hover, &:focus {
+        fill: #ffffff;
+      }
+    }
+  }
+}
