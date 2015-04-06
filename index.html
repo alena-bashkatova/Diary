@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Diary</title>
+    <link rel="stylesheet" href="client/styles/css/index.css"/>
+    <script src="client/js/jquery-2.1.3.min.js"></script>
+    <script src="client/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-default">
+        <div class="fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#collapse-nav">
+                    <!--add here svg-->
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse collapse-navbar clearfix" id="collapse-nav">
+                <div class="nav navbar-nav diary">
+                    <a href="#">Diary</a>
+                </div>
+                <div class="date">
+                    <a href="#"><time>January</time></a>
+                    <a href="#"><time>2015</time></a>
+                </div>
+                <ul class="nav navbar-nav navbar-right options">
+                    <li>
+                        <a href="#" class="icon">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                        viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+                                <polygon fill="#1B1B1B" points="14,6 8,6 8,0 6,0 6,6 0,6 0,8 6,8 6,14 8,14 8,8 14,8 "/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                        width="14px" height="14px" viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve" fill="#4ccde8">
+                                <rect y="-0.001" width="4" height="4.001"/>
+                                <rect x="10" y="-0.001" width="4.001" height="4.001"/>
+                                <rect x="5" y="-0.001" width="4" height="4.001"/>
+                                <rect y="10" width="4" height="4"/>
+                                <rect x="10" y="10" width="4.001" height="4"/>
+                                <rect x="5" y="10" width="4" height="4"/>
+                                <rect y="5" width="4" height="4"/>
+                                <rect x="10" y="5" width="4.001" height="4"/>
+                                <rect x="5" y="5" width="4" height="4"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                        viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+                                <g>
+	                                <path fill="none" d="M6,2C3.794,2,2,3.794,2,6c0,2.206,1.794,4,4,4s4-1.794,4-4C10,3.794,8.206,2,6,2z" class="glass"/>
+	                                <path fill="#1B1B1B" d="M14,12.586l-3.113-3.113C11.585,8.492,12,7.296,12,6c0-3.314-2.686-6-6-6S0,2.686,0,6c0,3.314,2.686,6,6,6
+		                            c1.296,0,2.492-0.415,3.473-1.113L12.586,14L14,12.586z M6,10c-2.206,0-4-1.794-4-4c0-2.206,1.794-4,4-4s4,1.794,4,4
+		                            C10,8.206,8.206,10,6,10z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon notification">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                        viewBox="0 0 14 14" enable-background="new 0 0 14 14" xml:space="preserve">
+                                <g>
+	                                <g>
+		                                <path fill="#1B1B1B" d="M13.999,9.616L13.788,9.43c-0.027-0.023-2.655-2.37-2.916-5.792L10.664,0.9l-0.295-0.166
+			                            C10.316,0.704,9.043,0,7.065,0H6.97C4.99,0,3.722,0.705,3.669,0.735L3.375,0.901L3.169,3.639C2.913,7.058,0.243,9.404,0.217,9.426
+			                            L0,9.613V11h14L13.999,9.616z"/>
+	                                </g>
+	                                <path fill="#1B1B1B" d="M7.083,14c1.103,0,2-1,2-2h-4C5.083,13,5.98,14,7.083,14z"/>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li><a href="#" class="photo"><img src="client/images/avatar/photo.png" alt="Avatar"/></a></li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+</header>
+<main>
+    <div class="container photos">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                <div class="add-photo">
+                    <div class="star">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                    width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                            <g>
+	                            <path fill="#1B1B1B" d="M16.928,19.699l-4.322-2.824l-4.322,2.824L9.5,14.5l-3.895-3.459l5.083-0.389l1.917-4.953l1.917,4.953
+		                        l5.083,0.389L15.711,14.5L16.928,19.699z"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <p><a href="#">Add</a> photo</p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-5.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-3.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-1.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-6.jpg);">
+                    </div>
+                    <figcaption>
+                        <p>My laptop</p>
+                        <a href="#"><time>11.12.2014</time></a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-4.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-3.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-2.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <figure class="">
+                    <div class="img" style="background-image: url(client/images/photos/foto-2.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-5.jpg);">
+                    </div>
+                    <figcaption>
+                        <p>Very long text here</p>
+                        <a href="#"><time>11.12.2014</time></a>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                <figure>
+                    <div class="img" style="background-image: url(client/images/photos/foto-6.jpg);">
+                    </div>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
