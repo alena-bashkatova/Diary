@@ -18,6 +18,8 @@ header {
         background-repeat: no-repeat;
         background-position: center;
         background-size: 16px;
+        @include transition-property(background-color);
+        @include transition-duration(400ms);
         &:focus, &:hover {
           background-color: #4ccde8;
         }
@@ -47,16 +49,23 @@ header {
           color: white;
           time {
             position: relative;
+
+            &::after {
+              position: absolute;
+              bottom: -2px;
+              left: 0;
+              display: block;
+              width: 100%;
+              height: 1px;
+              background-color: white;
+              content: '';
+              @include transition-property(all);
+              @include transition-duration(400ms);
+              @include opacity(0);
+            }
             &:hover {
               &::after {
-                position: absolute;
-                bottom: -2px;
-                left: 0;
-                display: block;
-                width: 100%;
-                height: 1px;
-                background-color: white;
-                content: '';
+                @include opacity(0.8);
               }
             }
           }
@@ -68,8 +77,11 @@ header {
         li {
           display: inline-block;
           vertical-align: middle;
+          padding-left: 20px;
+          @include breakpoint(extra-small){
+            padding-left: 12px;
+          }
           a {
-            margin-left: 20px;
             padding: 0;
             &:hover, &:active, &:focus {
               background: none;
