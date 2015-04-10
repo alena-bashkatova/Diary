@@ -7946,6 +7946,745 @@ body .clearfix::after {
   content: '';
 }
 
+/* line 2, ../scss/components/core/_grid.scss */
+main .custom-container {
+  padding: 95px 0 25px;
+}
+/* line 4, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+/* line 14, ../scss/lib/bootstrap/bootstrap/mixins/_clearfix.scss */
+main .custom-container .custom-row:before, main .custom-container .custom-row:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../scss/lib/bootstrap/bootstrap/mixins/_clearfix.scss */
+main .custom-container .custom-row:after {
+  clear: both;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-1 {
+  position: relative;
+  float: left;
+  width: 8.33333%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-2 {
+  position: relative;
+  float: left;
+  width: 16.66667%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-3 {
+  position: relative;
+  float: left;
+  width: 25%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-4 {
+  position: relative;
+  float: left;
+  width: 33.33333%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-5 {
+  position: relative;
+  float: left;
+  width: 41.66667%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-6 {
+  position: relative;
+  float: left;
+  width: 50%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-7 {
+  position: relative;
+  float: left;
+  width: 58.33333%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-8 {
+  position: relative;
+  float: left;
+  width: 66.66667%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-9 {
+  position: relative;
+  float: left;
+  width: 75%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-10 {
+  position: relative;
+  float: left;
+  width: 83.33333%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-11 {
+  position: relative;
+  float: left;
+  width: 91.66667%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 7, ../scss/components/core/_grid.scss */
+main .custom-container .custom-row .cus-col-xs-12 {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (min-width: 1200px) {
+  /* line 14, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row {
+    width: 1200px;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  /* line 14, ../scss/lib/bootstrap/bootstrap/mixins/_clearfix.scss */
+  main .custom-container .custom-row:before, main .custom-container .custom-row:after {
+    content: " ";
+    display: table;
+  }
+  /* line 19, ../scss/lib/bootstrap/bootstrap/mixins/_clearfix.scss */
+  main .custom-container .custom-row:after {
+    clear: both;
+  }
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-1 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-1 {
+    float: left;
+    width: 8.33333%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-2 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-2 {
+    float: left;
+    width: 16.66667%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-3 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-3 {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-4 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-4 {
+    float: left;
+    width: 33.33333%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-5 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-5 {
+    float: left;
+    width: 41.66667%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-6 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-6 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-7 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-7 {
+    float: left;
+    width: 58.33333%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-8 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-8 {
+    float: left;
+    width: 66.66667%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-9 {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-10 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-10 {
+    float: left;
+    width: 83.33333%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-11 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-11 {
+    float: left;
+    width: 91.66667%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (min-width: 1200px) and (min-width: 1200px) {
+  /* line 18, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-lg-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 25, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row {
+    width: 960px;
+    margin: auto;
+  }
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-1 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-1 {
+    float: left;
+    width: 8.33333%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-2 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-2 {
+    float: left;
+    width: 16.66667%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-3 {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-4 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-4 {
+    float: left;
+    width: 33.33333%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-5 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-5 {
+    float: left;
+    width: 41.66667%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-6 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-6 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-7 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-7 {
+    float: left;
+    width: 58.33333%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-8 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-8 {
+    float: left;
+    width: 66.66667%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-9 {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-10 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-10 {
+    float: left;
+    width: 83.33333%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-11 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-11 {
+    float: left;
+    width: 91.66667%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) and (min-width: 992px) {
+  /* line 29, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-md-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 36, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row {
+    width: 744px;
+    margin: auto;
+  }
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-1 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-1 {
+    float: left;
+    width: 8.33333%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-2 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-2 {
+    float: left;
+    width: 16.66667%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-3 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-3 {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-4 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-4 {
+    float: left;
+    width: 33.33333%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-5 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-5 {
+    float: left;
+    width: 41.66667%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-6 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-6 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-7 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-7 {
+    float: left;
+    width: 58.33333%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-8 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-8 {
+    float: left;
+    width: 66.66667%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-9 {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-10 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-10 {
+    float: left;
+    width: 83.33333%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-11 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-11 {
+    float: left;
+    width: 91.66667%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) and (min-width: 768px) {
+  /* line 40, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row .cus-col-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 47, ../scss/components/core/_grid.scss */
+  main .custom-container .custom-row {
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+  }
+}
+
 /* line 2, ../scss/components/_icon.scss */
 .icon svg {
   width: 14px;
@@ -8160,10 +8899,9 @@ header nav .collapse-navbar .options li .photo {
 
 /* line 1, ../scss/layouts/_photos.scss */
 .photos {
-  padding-top: 95px;
   z-index: 0;
 }
-/* line 4, ../scss/layouts/_photos.scss */
+/* line 3, ../scss/layouts/_photos.scss */
 .photos .add-photo {
   position: relative;
   width: 100%;
@@ -8171,7 +8909,7 @@ header nav .collapse-navbar .options li .photo {
   margin-top: 20px;
   background-color: #4ccde8;
 }
-/* line 10, ../scss/layouts/_photos.scss */
+/* line 9, ../scss/layouts/_photos.scss */
 .photos .add-photo p {
   margin: 0;
   font: normal 18px 'Roboto Condensed', sans-serif;
@@ -8179,21 +8917,21 @@ header nav .collapse-navbar .options li .photo {
   text-align: center;
   color: white;
 }
-/* line 16, ../scss/layouts/_photos.scss */
+/* line 15, ../scss/layouts/_photos.scss */
 .photos .add-photo p a {
   font: bold 18px 'Roboto', sans-serif;
   color: #ffffff;
 }
-/* line 22, ../scss/layouts/_photos.scss */
+/* line 21, ../scss/layouts/_photos.scss */
 .photos figure {
   position: relative;
 }
-/* line 25, ../scss/layouts/_photos.scss */
+/* line 24, ../scss/layouts/_photos.scss */
 .photos figure:hover figcaption {
   opacity: 0.9;
   filter: alpha(opacity=90);
 }
-/* line 29, ../scss/layouts/_photos.scss */
+/* line 28, ../scss/layouts/_photos.scss */
 .photos figure .img {
   width: 100%;
   height: 140px;
@@ -8202,7 +8940,7 @@ header nav .collapse-navbar .options li .photo {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* line 37, ../scss/layouts/_photos.scss */
+/* line 36, ../scss/layouts/_photos.scss */
 .photos figure figcaption {
   position: absolute;
   top: 0;
@@ -8225,7 +8963,7 @@ header nav .collapse-navbar .options li .photo {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-/* line 51, ../scss/layouts/_photos.scss */
+/* line 50, ../scss/layouts/_photos.scss */
 .photos figure figcaption p {
   overflow: hidden;
   margin: 0;
@@ -8236,7 +8974,7 @@ header nav .collapse-navbar .options li .photo {
   white-space: nowrap;
   color: #ffffff;
 }
-/* line 61, ../scss/layouts/_photos.scss */
+/* line 60, ../scss/layouts/_photos.scss */
 .photos figure figcaption a {
   font-family: "Roboto", sans-serif;
   font-size: 12px;

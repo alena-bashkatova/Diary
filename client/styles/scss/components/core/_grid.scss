@@ -1,0 +1,54 @@
+main {
+  .custom-container {
+    padding: 95px 0 25px;
+    .custom-row {
+      @include make-row(20px);
+      @for $i from 1 through 12 {
+        .cus-col-xs-#{$i} {
+          @include make-xs-column($i, 20px);
+        }
+      }
+    }
+
+    @include breakpoint(large) {
+      .custom-row {
+        width: 1200px;
+        @include make-row(30px);
+        @for $i from 1 through 12 {
+          .cus-col-lg-#{$i} {
+            @include make-lg-column($i, 30px);
+          }
+        }
+      }
+    }
+    @include breakpoint(medium) {
+      .custom-row {
+        width: 960px;
+        margin: auto;
+        @for $i from 1 through 12 {
+          .cus-col-md-#{$i} {
+            @include make-md-column($i, 20px);
+          }
+        }
+      }
+    }
+    @include breakpoint(small) {
+      .custom-row {
+        width: 744px;
+        margin: auto;
+        @for $i from 1 through 12 {
+          .cus-col-sm-#{$i} {
+            @include make-sm-column($i, 20px);
+          }
+        }
+      }
+    }
+    @include breakpoint(extra-small) {
+      .custom-row {
+        width: 100%;
+        margin: auto;
+        padding: 0 15px;
+      }
+    }
+  }
+}
